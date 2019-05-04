@@ -1,4 +1,5 @@
 <template>
+<!--    https://getbootstrap.com/docs/3.3/components/-->
     <div id="toolbar">
         <i @click="addNote" class="glyphicon glyphicon-plus"></i>
         <i @click="toggleFavorite"
