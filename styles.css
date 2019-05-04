@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,500,600);
+
+html, #app {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    max-height: 100%;
+    position: relative;
+    font-family: "Dosis", Sans-serif;
+    font-size: 28px;
+}
+
+#notes-list {
+    float: left;
+    width: 300px;
+    height: 100%;
+    background-color: #F5F5F5;
+    font-weight: 400;
+}
+
+#list-header {
+    padding: 5px 25px 25px 25px;
+}
+
+#list-header h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+#notes-list .container {
+    height: calc(100% - 137px);
+    max-height: calc(100% - 137px);
+    overflow: auto;
+    width: 100%;
+    padding: 0;
+}
+
+#notes-list .container .list-group-item {
+    border: 0;
+    border-radius: 0;
+}
+
+.list-group-item-heading {
+    font-weight: 400;
+}
+
+#note-editor {
+    height: 100%;
+    margin-left: 380px;
+}
+
+#note-editor textarea {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+    font-family: "Courier New";
+}
+
+/* toolbar */
+
+.toolbar {
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-color: #30414D;
+    color: #767676;
+    padding: 35px 25px 25px 25px;
+}
+
+.toolbar i {
+    font-size: 38px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+}
+
+.toolbar i:hover {
+    opacity: 1;
+}
+
+/* project-list */
+
+#project-list {
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-color: #30414D;
+    color: #767676;
+    padding: 35px 25px 25px 25px;
+}
+
+#project-list i {
+    font-size: 38px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+}
+
+#project-list i:hover {
+    opacity: 1;
+}
+
+
+/* account-list */
+
+#account-list {
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-color: #30414D;
+    color: #767676;
+    padding: 35px 25px 25px 25px;
+}
+
+#account-list i {
+    font-size: 38px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+}
+
+#account-list i:hover {
+    opacity: 1;
+}
+
+
+
+.starred {
+    color: #F7AE4F;
+}
