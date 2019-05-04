@@ -63,7 +63,7 @@
         <!--            <h2>Social Icons - Rounded  (.icon-rounded)</h2>-->
 
 <!--        https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself-->
-        <ul class="social-icons icon-rounded  list-unstyled list-inline">
+        <ul class="social-icons icon-rounded list-unstyled list-inline">
             <li>
                 <a href="#"><i class="fas fa-user"></i></a>
             </li>
