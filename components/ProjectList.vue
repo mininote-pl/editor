@@ -1,11 +1,20 @@
 <template>
     <div id="project-list">
 
-        <i @click="addNote" class="glyphicon glyphicon-plus"></i>
-        <i @click="toggleFavorite"
-           class="glyphicon glyphicon-star"
-           :class="{starred: activeNote.favorite}"></i>
-        <i @click="deleteNote" class="glyphicon glyphicon-remove"></i>
+        <ul class="unstyled hand" >
+            <li>
+                <i class="glyphicon glyphicon-star"></i>
+                <span>first</span>
+            </li>
+            <li>
+                <i class="glyphicon glyphicon-star"></i>
+                <span>second</span>
+            </li>
+            <li>
+                <i class="glyphicon glyphicon-star"></i>
+                <span>Third</span>
+            </li>
+        </ul>
 
     </div>
 </template>

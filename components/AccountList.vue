@@ -62,21 +62,34 @@
         <!--            <hr />-->
         <!--            <h2>Social Icons - Rounded  (.icon-rounded)</h2>-->
 
-<!--        https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself-->
-        <ul class="social-icons icon-rounded list-unstyled list-inline">
-            <li>
-                <a href="#"><i class="fas fa-user"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fab fa-github"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fab fa-bitbucket"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fab fa-dropbox"></i></a>
-            </li>
-        </ul>
+        <!--        https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself-->
+        <div>
+            <ul class="social-icons icon-rounded list-unstyled list-inline">
+
+                <li>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-bitbucket"></i></a>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="position-bottom">
+<!--            <hr>-->
+            <ul class="social-icons icon-rounded list-unstyled list-inline">
+                <li>
+                    <a href="#"><i class="fas fa-user"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-dropbox"></i></a>
+                </li>
+            </ul>
+        </div>
+
+
         <!--            -->
         <!--            <h2>Social Icons - Flat  (.icon-flat)</h2>-->
         <!--            <ul class="social-icons icon-flat list-unstyled list-inline">-->
