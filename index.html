@@ -11,8 +11,8 @@
     <script>
         // REDIRECTION from http -> https
         var dev = window.location.hostname === 'localhost';
-        var https = window.location.protocol === 'https';
-        console.log(dev, https);
+        var https = window.location.protocol === 'https:';
+        // console.log(dev, https, window.location.protocol, window.location);
         if (!dev && !https) {
             window.location.href = window.location.href.replace('http', 'https');
         }
