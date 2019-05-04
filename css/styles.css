@@ -125,8 +125,9 @@ ul.unstyled.vertical li {
 }
 
 #notes-list .container {
-    height: calc(100% - 137px);
-    max-height: calc(100% - 137px);
+    height: 100%;
+    /*height: calc(100% - 137px);*/
+    /*max-height: calc(100% - 137px);*/
     overflow: auto;
     width: 100%;
     padding: 0;
@@ -184,7 +185,6 @@ ul.unstyled.vertical li {
 }
 
 
-
 /* project-list */
 
 #project-list {
@@ -207,7 +207,6 @@ ul.unstyled.vertical li {
 #project-list i:hover {
     opacity: 1;
 }
-
 
 
 /* toolbar */
@@ -238,22 +237,18 @@ ul.unstyled.vertical li {
 }
 
 
-
 /*MODULES*/
 #account-list > *,
 #project-list > *,
 #category-list > *,
 #notes-list > *,
-.container > *
-{
+.container > * {
     padding-top: 40px;
 }
+
 #note-editor {
     padding-top: 45px;
 }
-
-
-
 
 
 /*    !*----- Genral Classes start ------*!*/

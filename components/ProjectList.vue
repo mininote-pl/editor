@@ -20,7 +20,7 @@
 </template>
 
 <script>
-    import {addNote, deleteNote, toggleFavorite} from '../vuex/actions'
+    import {addProject, deleteProject} from '../vuex/actions'
 
     export default {
         vuex: {
@@ -28,9 +28,8 @@
                 activeNote: state => state.activeNote
             },
             actions: {
-                addNote,
-                deleteNote,
-                toggleFavorite
+                addProject,
+                deleteProject
             }
         }
     }

@@ -35,7 +35,7 @@ const mutations = {
         state.activeNote.text = text
         // console.log(text)
         // simplemde.value(text)
-        $("a h4").click(function (e) {
+        $("a.list-group-item").click(function (e) {
             $("textarea").focus();
         });
     },
