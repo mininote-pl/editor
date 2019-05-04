@@ -6,6 +6,7 @@
         <category-list></category-list>
         <notes-list></notes-list>
         <editor></editor>
+<!--        <markdown-editor></markdown-editor>-->
     </div>
 </template>
 
@@ -16,6 +17,7 @@
     import Toolbar from './Toolbar.vue'
     import NotesList from './NotesList.vue'
     import Editor from './Editor.vue'
+    // import MarkdownEditor from './MarkdownEditor.vue'
 
 
     export default {
@@ -25,7 +27,8 @@
             ProjectList,
             CategoryList,
             NotesList,
-            Editor
+            Editor,
+            // MarkdownEditor
         }
     }
 </script>

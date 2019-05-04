@@ -1,9 +1,11 @@
 <template>
     <div id="note-editor">
     <textarea
+            id="form-control"
+            class="form-control"
             :value="activeNoteText"
             @input="editNote"
-            class="form-control">
+    >
     </textarea>
     </div>
 </template>

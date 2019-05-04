@@ -13,13 +13,13 @@
                     <span>|</span>
                 </li>
                 <li>
-                    <a href="#home">Add Account</a>
+                    <a href="#">Add Account</a>
                 </li>
                 <li>
-                    <a href="#news">Settings</a>
+                    <a href="#">Settings</a>
                 </li>
                 <li>
-                    <a href="#contact">Help</a>
+                    <a href="#">Help</a>
                 </li>
                 <li>
                     <span>|</span>
@@ -30,6 +30,7 @@
             </ul>
 
 
+
             <ul class="menu-account unstyled horizontal">
                 <li>
                     <span>Account</span>
@@ -38,12 +39,13 @@
                     <span>|</span>
                 </li>
                 <li>
-                    <a href="#news">Add</a>
+                    <a href="#">Add</a>
                 </li>
                 <li>
-                    <a href="#contact">Remove</a>
+                    <a href="#">Remove</a>
                 </li>
             </ul>
+
 
 
             <ul class="menu-project unstyled horizontal">
@@ -61,6 +63,7 @@
                 </li>
             </ul>
 
+
             <ul class="menu-category unstyled horizontal">
                 <li>
                     <span>Category</span>
@@ -69,19 +72,19 @@
                     <span>|</span>
                 </li>
                 <li>
-                    <a href="#home">
+                    <a href="#">
                         <i @click="addNote" class="glyphicon glyphicon-plus"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#news">
+                    <a href="#">
                         <i @click="toggleFavorite"
                            class="glyphicon glyphicon-star"
                            :class="{starred: activeNote.favorite}"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#contact">
+                    <a href="#">
                         <i @click="deleteNote" class="glyphicon glyphicon-remove"></i>
                     </a>
                 </li>

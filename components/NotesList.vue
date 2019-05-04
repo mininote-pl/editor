@@ -1,26 +1,27 @@
 <template>
     <div id="notes-list">
 
-        <div id="list-header">
-            <div class="btn-group btn-group-justified" role="group">
-                <!-- All Notes button -->
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default"
-                            @click="show = 'all'"
-                            :class="{active: show === 'all'}">
-                        All Notes
-                    </button>
-                </div>
-                <!-- Favorites Button -->
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default"
-                            @click="show = 'favorites'"
-                            :class="{active: show === 'favorites'}">
-                        Favorites
-                    </button>
-                </div>
-            </div>
-        </div>
+<!--        <div id="list-header">-->
+<!--            <div class="btn-group btn-group-justified" role="group">-->
+<!--                &lt;!&ndash; All Notes button &ndash;&gt;-->
+<!--                <div class="btn-group" role="group">-->
+<!--                    <button type="button" class="btn btn-default"-->
+<!--                            @click="show = 'all'"-->
+<!--                            :class="{active: show === 'all'}">-->
+<!--                        All Notes-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; Favorites Button &ndash;&gt;-->
+<!--                <div class="btn-group" role="group">-->
+<!--                    <button type="button" class="btn btn-default"-->
+<!--                            @click="show = 'favorites'"-->
+<!--                            :class="{active: show === 'favorites'}">-->
+<!--                        Favorites-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        -->
         <!-- render notes in a list -->
         <div class="container">
             <div class="list-group">

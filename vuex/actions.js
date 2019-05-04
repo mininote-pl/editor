@@ -3,7 +3,11 @@ export const addNote = ({dispatch}) => {
 }
 
 export const editNote = ({dispatch}, e) => {
-    dispatch('EDIT_NOTE', e.target.value)
+    // var text = simplemde.value();
+    var text = e.target.value;
+    // console.log(text)
+
+    dispatch('EDIT_NOTE', text)
 }
 
 export const deleteNote = ({dispatch}) => {
@@ -18,7 +22,7 @@ export const toggleFavorite = ({dispatch}) => {
     dispatch('TOGGLE_FAVORITE')
 }
 
-
+// Account
 export const addAccount = ({dispatch}) => {
     dispatch('ADD_ACCOUNT')
 }
@@ -31,7 +35,7 @@ export const deleteAccount = ({dispatch}) => {
     dispatch('DELETE_ACCOUNT')
 }
 
-
+// Project
 export const addProject = ({dispatch}) => {
     dispatch('ADD_PROJECT')
 }
@@ -44,7 +48,7 @@ export const deleteProject = ({dispatch}) => {
     dispatch('EDIT_PROJECT')
 }
 
-
+// Category
 export const addCategory = ({dispatch}) => {
     dispatch('ADD_CATEGORY')
 }

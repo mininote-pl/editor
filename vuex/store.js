@@ -19,13 +19,25 @@ const mutations = {
             category: 'new Category',
             project: 'new Project',
             account: 'new Account',
+            pos: {
+                x: 1,
+                y: 1
+            }
         }
+        // console.log(newNote.text)
         state.notes.push(newNote)
         state.activeNote = newNote
+
+
     },
 
     EDIT_NOTE(state, text) {
         state.activeNote.text = text
+        // console.log(text)
+        // simplemde.value(text)
+        $("a h4").click(function (e) {
+            $("textarea").focus();
+        });
     },
 
     DELETE_NOTE(state) {

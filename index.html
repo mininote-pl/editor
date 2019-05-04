@@ -18,14 +18,13 @@
         }
     </script>
 
-<!-- App Data-->
+    <!-- App Data-->
     <title>miniNote | editor for clouds</title>
     <link rel="icon" type="image/png" href="http://editor.mininote.pl/mininote-logo.png" sizes="32x32"/>
 
 
-<!-- Public-->
+    <!-- Public-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="fa581/css/all.css">
     <link rel="stylesheet" href="fa581/css/all.css">
 
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -33,30 +32,47 @@
     <!-- private-->
     <link rel="stylesheet" href="css/styles.css?ver=1.0.7">
 
-<!--        <script src="fa581/js/all.js">-->
+    <!--        <script src="fa581/js/all.js">-->
+
+
+    <!--    simpleMDE-->
+    <script src="js/simplemde.min.js"></script>
+    <link rel="stylesheet" href="js/simplemde.min.js">
+    <link rel="stylesheet"
+          href="https://cdn.rawgit.com/xcatliu/simplemde-theme-dark/master/dist/simplemde-theme-dark.min.css">
 
 </head>
 <body>
-    <app></app>
-    <script src="build.js?ver=1.0.7"></script>
-    <style>
-        .menu-app,
-        .menu-account,
-        .menu-project,
-        /*.menu-note,*/
-        .menu-toolbar,
-        .menu-category
-        {
-            display: none;
-            visibility: hidden;
-        }
-    </style>
 
-    <script>
-        $("a.add-note, a.add-favorite").click(function(e) {
-            // check if exist article
-            $("textarea").focus();
-        });
-    </script>
+
+<app></app>
+<script src="build.js?ver=1.0.7"></script>
+<style>
+    .menu-app,
+    .menu-account,
+    .menu-project,
+        /*.menu-note,*/
+    .menu-toolbar,
+    .menu-category {
+        display: none;
+        visibility: hidden;
+    }
+</style>
+
+<script>
+    $("a.add-note, a.add-favorite, a.list-group-item").click(function (e) {
+    // $("a h4, a").click(function (e) {
+        // check if exist article
+        $("textarea").focus();
+    });
+
+</script>
+
+
+<script>
+    // var simplemde = new SimpleMDE();
+    // var simplemde = new SimpleMDE({element: document.getElementById("form-control")});
+</script>
+
 </body>
 </html>
