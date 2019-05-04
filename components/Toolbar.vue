@@ -1,11 +1,141 @@
 <template>
-<!--    https://getbootstrap.com/docs/3.3/components/-->
+    <!--    https://getbootstrap.com/docs/3.3/components/-->
     <div id="toolbar">
-        <i @click="addNote" class="glyphicon glyphicon-plus"></i>
-        <i @click="toggleFavorite"
-           class="glyphicon glyphicon-star"
-           :class="{starred: activeNote.favorite}"></i>
-        <i @click="deleteNote" class="glyphicon glyphicon-remove"></i>
+
+        <div class="navbar">
+
+
+            <ul class="menu-app unstyled horizontal">
+                <li>
+                    <span>MiniNote</span>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#home">Add Account</a>
+                </li>
+                <li>
+                    <a href="#news">Settings</a>
+                </li>
+                <li>
+                    <a href="#contact">Help</a>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li class="position-right">
+                    <a href="#logout">Logout</a>
+                </li>
+            </ul>
+
+
+            <ul class="menu-account unstyled horizontal">
+                <li>
+                    <span>Account</span>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#news">Add</a>
+                </li>
+                <li>
+                    <a href="#contact">Remove</a>
+                </li>
+            </ul>
+
+
+            <ul class="menu-project unstyled horizontal">
+                <li>
+                    <span>Project</span>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#news">Add</a>
+                </li>
+                <li>
+                    <a href="#contact">Remove</a>
+                </li>
+            </ul>
+
+            <ul class="menu-category unstyled horizontal">
+                <li>
+                    <span>Category</span>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#home">
+                        <i @click="addNote" class="glyphicon glyphicon-plus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#news">
+                        <i @click="toggleFavorite"
+                           class="glyphicon glyphicon-star"
+                           :class="{starred: activeNote.favorite}"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <i @click="deleteNote" class="glyphicon glyphicon-remove"></i>
+                    </a>
+                </li>
+            </ul>
+
+
+            <ul class="menu-note unstyled horizontal">
+                <li>
+                    <span>Note</span>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#" class="add-note" @click="addNote"
+                    >Add
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="add-favorite" @click="toggleFavorite"
+                       :class="{starred: activeNote.favorite}"
+                    >Favorite
+                    </a>
+                </li>
+                <li>
+                    <a href="#" @click="deleteNote"
+                    >Remove
+                    </a>
+                </li>
+            </ul>
+
+
+            <ul class="menu-toolbar unstyled horizontal">
+                <li>
+                    <a href="#">
+                        <i @click="addNote" class="glyphicon glyphicon-plus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i @click="toggleFavorite"
+                           class="glyphicon glyphicon-star"
+                           :class="{starred: activeNote.favorite}"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i @click="deleteNote" class="glyphicon glyphicon-remove"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
     </div>
 </template>
 

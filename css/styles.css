@@ -12,20 +12,103 @@ body {
     max-height: 100%;
     position: relative;
     font-family: "Dosis", Sans-serif;
-    font-size: 28px;
+    font-size: 26px;
+    z-index: -1;
+
+    top: 40px;
 }
 
+
+/* lists */
 ul.unstyled {
     list-style-type: none;
 }
 
 .unstyled li{
-    padding-left: 1.5em;
-    text-indent: -1.5em;
 }
 .hand {
     cursor: pointer;
 }
+
+ul.unstyled.horizontal {
+    /*display: block;*/
+    margin: 0 5px 0 5px;
+}
+
+ul.unstyled.horizontal li {
+    /*padding-left: 1.5em;*/
+    /*text-indent: -1.5em;*/
+    display: inline-block;
+    padding: 0 5px 0 5px;
+}
+
+
+ul.unstyled.vertical li {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+
+/* position    */
+.position-right {
+    float: right;
+}
+
+
+/* navbar  */
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 10;
+    min-height: 40px;
+    height: 40px;
+    margin-bottom: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links inside the navbar */
+.navbar a,
+.navbar span
+{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 8px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover
+{
+    background: #ddd;
+    color: black;
+}
+
+.navbar span:hover
+{
+}
+
+/* Main content */
+.main {
+    margin-top: 20px; /* Add a top margin to avoid content overlay */
+}
+
+
+
+/*NOTES*/
 
 #notes-list {
     float: left;

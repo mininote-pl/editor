@@ -1,7 +1,7 @@
 <template>
     <div id="project-list">
 
-        <ul class="unstyled hand" >
+        <ul class="unstyled vertical hand" >
             <li>
                 <i class="glyphicon glyphicon-star"></i>
                 <span>first</span>

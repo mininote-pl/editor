@@ -1,9 +1,9 @@
 <template>
     <div id="app">
+        <toolbar></toolbar>
         <account-list></account-list>
         <project-list></project-list>
         <category-list></category-list>
-        <toolbar></toolbar>
         <notes-list></notes-list>
         <editor></editor>
     </div>
@@ -20,10 +20,10 @@
 
     export default {
         components: {
+            Toolbar,
             AccountList,
             ProjectList,
             CategoryList,
-            Toolbar,
             NotesList,
             Editor
         }
