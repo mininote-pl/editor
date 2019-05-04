@@ -487,4 +487,16 @@ ul.unstyled.vertical li {
     background-color: #C52F30;
 }
 
+ /*TEXT style*/
 
+.social-icons .fab.text-white,
+.social-icons .fas.text-white
+{
+    color: yellow;
+}
+
+.social-icons .fab.text-blue,
+.social-icons .fas.text-blue
+{
+    color: lightskyblue;
+}

@@ -21,6 +21,7 @@ A notes application for clouds such github, gitlub, bitbucket, built using VueJs
     npm install serve-static
     npm install connect
     npm install simplemde --save
+    npm install jquery
 
 ## Start
 

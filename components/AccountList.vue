@@ -62,7 +62,7 @@
         <!--            <hr />-->
         <!--            <h2>Social Icons - Rounded  (.icon-rounded)</h2>-->
 
-        <!--        https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself-->
+        <!--        https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself -->
         <div>
             <ul class="social-icons icon-rounded list-unstyled list-inline">
 
@@ -72,20 +72,79 @@
                 <li>
                     <a href="#"><i class="fab fa-bitbucket"></i></a>
                 </li>
+                <li>
+                    <a href="#"><i class="fas fa-plus text-white"></i></a>
+                </li>
+<!--                <hr>-->
 
             </ul>
         </div>
 
 
-        <div class="position-bottom">
-<!--            <hr>-->
+        <!--        <div class="position-bottom">-->
+        <div>
+            <!--            <hr>-->
             <ul class="social-icons icon-rounded list-unstyled list-inline">
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-user"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-user-cog"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-user-edit"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-user-friends"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-search"></i></a>-->
+                <!--                </li>-->
                 <li>
-                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-cog text-blue"></i></a>
                 </li>
                 <li>
-                    <a href="#"><i class="fab fa-dropbox"></i></a>
+                    <a href="#"><i class="fas fa-info-circle text-blue"></i></a>
                 </li>
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-desktop"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-tablet-alt"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-mobile-alt"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-plus"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-plus-circle"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-edit"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-remove"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-check-circle"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-share"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-sign-out"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-upload"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-file-upload"></i></a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"><i class="fas fa-cloud-upload"></i></a>-->
+                <!--                </li>-->
             </ul>
         </div>
 

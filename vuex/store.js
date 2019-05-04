@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import $ from 'jquery'
+import config from '../config.js'
+console.log('config', config);
+
 
 Vue.use(Vuex)
 
@@ -10,6 +14,7 @@ const state = {
     notes: [],
     activeNote: {},
 }
+
 
 const mutations = {
     ADD_NOTE(state) {
@@ -35,8 +40,12 @@ const mutations = {
         state.activeNote.text = text
         // console.log(text)
         // simplemde.value(text)
+
+        var debug = true;
+
         $("a.list-group-item").click(function (e) {
             $("textarea").focus();
+            return debug && console.log('STORE EDIT_NOTE txt click');
         });
     },
 

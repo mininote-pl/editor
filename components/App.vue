@@ -18,6 +18,7 @@
     import NotesList from './NotesList.vue'
     import Editor from './Editor.vue'
     // import MarkdownEditor from './MarkdownEditor.vue'
+    // import $ from 'jquery'
 
 
     export default {
